@@ -1,5 +1,5 @@
 
-CoralPhone is a free VoIP and video softphone based on the SIP protocol.
+# CoralPhone is a free VoIP and video softphone based on the SIP protocol.
 
 # COMPILATION INSTRUCTIONS
 
