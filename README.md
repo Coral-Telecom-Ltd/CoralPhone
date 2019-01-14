@@ -3,7 +3,7 @@
 
 # COMPILATION INSTRUCTIONS
 
-## To build liblinphone for Android, you must:
+## To build CoralPhone for Android, you must:
 
 1. Download the latest Android sdk with platform-tools and tools updated to latest revision, then add both 'tools' and 'platform-tools' folders in your path and the android-sdk folder to ANDROID_HOME environment variable.
 
@@ -45,7 +45,7 @@ You need to edit the build.gradle file:
 3. change the package name also in the files: res/xml/syncadapter.xml, res/xml/contacts.xml and res/values/non_localizable_custom where <!-- Change package ! --> appears
 4. run again the Makefile script by calling "make"
 
-## To run the liblinphone test suite on android
+## To run the CoralPhone test suite on android
 
 Simply run `make liblinphone_tester`. This will be build everything, generate an apk, and install it on the connected device if any.
 
@@ -92,8 +92,8 @@ The available options can be listed with the `./prepare.py --list-features`
 
 # CONTRIBUTIONS
 
-In order to submit a patch for inclusion in linphone's source code:
+In order to submit a patch for inclusion in CoralPhone's source code:
 
 1.    First make sure your patch applies to latest git sources before submitting: patches made to old versions can't be merged.
-2.    Fill out and send us an email with the link of pullrequest and the [Contributor Agreement](http://www.belledonne-communications.com/downloads/Belledonne_communications_CA.pdf) for your patch to be included in the git tree. The goal of this agreement to grant us peaceful exercise of our rights on the linphone source code, while not losing your rights on your contribution.
+2.    Fill out and send us an email with the link of pullrequest and the [Contributor Agreement](www.coraltele.com) for your patch to be included in the git tree. The goal of this agreement to grant us peaceful exercise of our rights on the linphone source code, while not losing your rights on your contribution.
 
